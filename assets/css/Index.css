@@ -1,0 +1,209 @@
+body {
+  margin: 0px;
+}
+.flex {
+  display: flex !important;
+}
+.flex-row {
+  flex-direction: row !important;
+}
+.flex-col {
+  flex-direction: column !important;
+}
+.header {
+  padding: 5px 100px;
+  width: 100%;
+  height: 10vh;
+  box-sizing: border-box;
+}
+.logo-img {
+  height: 100%;
+}
+.header-button {
+  color: #7A7A7A;
+  font-size: 25px;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+}
+.contact-btn {
+  background-color: #DD222A;
+  font-size: 25px;
+  font-weight: 700;
+  align-items: center;
+  padding: 5px 40px;
+  border-radius: 25px;
+  justify-content: center;
+  margin: auto;
+  color: #FFFFFF;
+}
+.background-section{
+  height: 90vh;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b166/969e/f8d99198b5051cb98f9e89e3c43de395?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ieqtKFvZes6GTXeA6Wp-ClwiEZPfEQfgWmYiGBj4v0h5JH6Kg7tbHgy-Oa4uhdzWylLBA2hCZNtNIFZdRQdbsI3Q98WHl3A0MLKJi~3sGrTNYdJkEpD-WauGSui4jArT3E1S4138HyIS6FbHvTotwRSfkj0CrG7qy-KTZ~hrIANSTdJTRxJJX98CCSE3A85XWltOMScUj-apL2yvtjZfEBI5YHSuv7m0M4u0U6XksjLOQv1Kt5o1j8iciorQjNU4HIYoh9iyhNeQqjygK3-fQ20U-7yBbp0B7br2AxWaDbZC62d40xdT1leRt54VkoPBC0ArHk-MDwY3fW9RIQZ8lA__");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-letter {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #FFFFFF;
+  width: 70%;
+  padding: 0px 20px;
+  border-left: 5px solid #FFFFFF;
+}
+.main-button {
+  margin-top: 30px;
+  background-color: #DD222A;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: #FFFFFF;
+}
+.about-me-section {
+  font-size: 65px;
+  border-top: 8px solid #DD222A;
+}
+.about-me-img {
+  width: 59%;
+  height: 165px;
+}
+.system-ui-font {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.proc {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  background-color: red;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+.icon {
+  background-color: #DD222A;
+  color: #FFFFFF;
+  border-radius: 50%;
+  width: 125.79px;
+  height: 125.79px;
+  margin: auto;
+}
+.Okna{
+  background-image: url("https://s3-alpha-sig.figma.com/img/d61d/3ba4/bd3424317f015fed8d955ed13c4ba879?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=onMG1A6QZC5wXehQ3-PujbVZoPOpeO--EQ-UMvbxr3kH26iOvgbv9Ruw-rP7aZhl5Im-LVCdP4DzGloszuCSwOmq00t2TcpxhdAZHErxePiMLgPm7rW8nYRH05UAmXzfvStpNCMe9YD4auqJJW-lB8ZLYQhYLHQ246JZrK~s9joHczXV6bvcU4wJ9M6jEAIYqQimvTmG5f9M3YQYJIvsJGyfbdkiZRJ7zSY1FRWddpXo3xpUporI0xezRzFKQlnDCTrNGCSh34vhJHVR0LWRbYgKGjdji81RTLfVeedItDUnMZcdUnSyzpHAt0Z7yMp9oKLou18JgxS56zI4QySnRg__");
+  width: 100%;
+  height: 881.34px;
+  position: relative;
+}
+.down-letter {
+  padding: 0px 6px 0 17px;
+  border-radius: 34px 0 0 0;
+  background-color: #DD222A;
+  color: #FFFFFF;
+  cursor: context-menu;
+}
+.down-letter:hover {
+  background-color: #890000;
+}
+.Okna-synego{
+  background-image: url("https://s3-alpha-sig.figma.com/img/163a/5012/2bfda2be751c3611b9bc12fa35e2d3c9?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iQJqUf6-c4UPeLPLMrTsBVTowx3RVHjg~AGJIQI-s8aIxlXoKhR~0nI0VsvXTYZeqPWHIGKkF7u~KabA2poeCeMYMKPzTBrYo-kqWQ7ubTOWHKVRtU6zZ~3oRcEuW9Xn8yRzzJyy0Qu9fjQjqCpIcZ5WGnW5oEWm3x15MLa4P71Ew6nF0p6pjaxA85h7eaNou0VUmldr6YGUuSFqHHX92sXmiNvNAySVBsCS~v3KUmwFaGDKE6LLCkY-J9QBaO~G1BIFagfSHJoCPYNbg1IliKY~MvESOV-aunz131WZzgToyHglvvMzhWQCllKa8peRaBnm24t95ZMoODx1H8LGEQ__");
+  width: 100%;
+  height: 881.34px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-list {
+  background-image: url("https://s3-alpha-sig.figma.com/img/0f2a/b1bb/98db6da75e12c1160c8dde40e8657446?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=c2z56uPlG~B0qteOcrciSP4Tbu4pVE44qdo6bmC7ADK0Ccjipx9IJ8v34ZNNQSzcioxRWVYHoZ8LXKy3FiSGyU2lUNWgzEWW-lJbJ2YbBcPHUa9gDQgHfL18e86LvAGD1VcuX1F1DInRxCLrv6rrOFA7R3oC3ED1I1xzn8Iefablb8BvKLcNCInyGfsmmKM5r40SRdIYQg4fF6CU1tyDHpio2iia7hVkHGGxp3Eo49gMd1FfuT7ywSstqWZrW0t9EpRS1fCHbDb~8eJC5JrFZUBwQkgpFTbi21BbL7HzgWv~~2dh2OHSMMVMgObGvTnTzXQpXlokfKThkZ21S8I7Rg__");
+ background-size: 100%;
+}
+
+.vase-lists {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.select {
+  cursor: context-menu;
+}
+.unactive {
+  background-color: #BEBEBE; 
+}
+.unactive:hover {
+  background-color: #E0E0E0;
+}
+
+.tech-data-slide {
+  cursor: context-menu;
+}
+.hide {
+  display: none;
+}
+.submit-btn {
+  cursor: context-menu;
+  color: white;
+  background-color: #890000;
+  width: 200px;
+  text-align: center;
+  height: 30px;
+}
+.submit-btn:hover {
+  background-color: white;
+  color: red;
+ 
+}
+
+.loader {
+  margin: auto;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  transform: translateZ(0);
+  animation: mltShdSpin 1.7s infinite ease, round 1.7s infinite ease;
+}
+
+@keyframes mltShdSpin {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em,
+    0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+    0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 
+    0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 
+    0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, 
+    -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, 
+    -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+     -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, 
+     -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+     -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, 
+     -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 
+    0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+
+@keyframes round {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
